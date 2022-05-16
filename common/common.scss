@@ -1,0 +1,5 @@
+.about-page {
+  section.about.contact:not(.contact-custom) {
+    display: none;
+  }
+}
