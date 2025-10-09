@@ -1,8 +1,8 @@
 import Component from "@ember/component";
 import { getOwner } from "@ember/owner";
+import { htmlSafe } from "@ember/template";
 import { classNames, tagName } from "@ember-decorators/component";
 import icon from "discourse/helpers/d-icon";
-import htmlSafe from "discourse/helpers/html-safe";
 import { i18n } from "discourse-i18n";
 
 @tagName("section")
