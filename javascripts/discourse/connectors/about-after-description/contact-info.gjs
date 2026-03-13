@@ -1,3 +1,4 @@
+/* eslint-disable ember/no-classic-components, ember/require-tagless-components */
 import Component from "@ember/component";
 import { getOwner } from "@ember/owner";
 import { htmlSafe } from "@ember/template";
